@@ -10,4 +10,12 @@ c) This is O(n) because it recursively returns an amount that's roughly equal to
 
 ## Exercise II
 
-
+if a building is n stories tall and an egg only breaks if it is thrown off of f or higher then,
+as long as you are only dropping eggs at f or lower the eggs should be safe (for real what is f? 
+.0001% of the first floor)
+safe_eggs:
+    for n in building:
+        if n is less than f:
+            return safe eggs
+        else:
+            return haha eggs go splat
